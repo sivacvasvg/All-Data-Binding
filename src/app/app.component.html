@@ -1,0 +1,17 @@
+<div>
+    <p>{{reg}}</p>
+    <br>
+    <p>{{userName}}</p>
+    <br>
+    <input type="text" [(ngModel)]="userEmail" value="">
+    <p>{{userEmail}}</p>
+    <button [disabled]="isDisabled" >i am disable</button>
+    <br>
+    <button (click)="myChange()">Try</button>
+    
+    <br>
+    <input type="text" name="" [(ngModel)]="sample" value="">
+    <button type="reset">Reset</button>
+    <p>{{sample}}</p>
+</div>
+
